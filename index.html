@@ -1,0 +1,14 @@
+<!doctype html>
+<html ng-app>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.3/angular.min.js"></script>
+    <script src="./plants.js"></script>
+    <link rel="stylesheet" href="plants.css">
+  </head>
+  <body>
+    <h2>Plants</h2>
+    <ul ng-controller="PlantsCtrl">
+      <li ng-repeat="plant in plants">{{plant.common_name}}</li>
+    </ul>
+  </body>
+</html>
