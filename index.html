@@ -4,11 +4,11 @@
     <link rel="stylesheet" href="plants.css">
   </head>
   <body>
-    <h2>Plants</h2>
-    <ul ng-controller="PlantsCtrl">
-      <li ng-repeat="plant in plants">{{plant.Name}} ({{plant.Group}})</li>
+    <h2>zenvironments</h2>
+    <ul ng-controller="appGrpsCtrl">
+      <li ng-repeat="ag in appGrps">{{ag.Name}} ({{ag.Code}})</li>
     </ul>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.3/angular.min.js"></script>
-    <script src="./plants.js"></script>
+    <script src="./js/zenviro.js"></script>
   </body>
 </html>

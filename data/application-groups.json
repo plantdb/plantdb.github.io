@@ -1,0 +1,12 @@
+[
+  {
+    "Name": "zenvironments",
+    "Code": "zenviro",
+    "Description": "application deployment history and monitoring"
+  },
+  {
+    "Name": "teamcity config monitor",
+    "Code": "tc-cfg-mon",
+    "Description": "teamcity configuration history and monitoring"
+  }
+]

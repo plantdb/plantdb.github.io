@@ -1,0 +1,38 @@
+[
+  {
+    "Name": "zenvironments production",
+    "Code": "prod",
+    "Description": "production environment for zenvironments",
+    "ApplicationGroup": "zenviro"
+  },
+  {
+    "Name": "zenvironments integration test",
+    "Code": "int",
+    "Description": "application integration testing for zenvironments",
+    "ApplicationGroup": "zenviro"
+  },
+  {
+    "Name": "zenvironments development",
+    "Code": "dev",
+    "Description": "application development for zenvironments",
+    "ApplicationGroup": "zenviro"
+  },
+  {
+    "Name": "teamcity config monitor production",
+    "Code": "prod",
+    "Description": "production environment for teamcity config monitor",
+    "ApplicationGroup": "tc-cfg-mon"
+  },
+  {
+    "Name": "teamcity config monitor integration test",
+    "Code": "int",
+    "Description": "application integration testing for teamcity config monitor",
+    "ApplicationGroup": "tc-cfg-mon"
+  },
+  {
+    "Name": "teamcity config monitor development",
+    "Code": "dev",
+    "Description": "application development for teamcity config monitor",
+    "ApplicationGroup": "tc-cfg-mon"
+  }
+]
